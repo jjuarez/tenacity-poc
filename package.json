@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "clean": "npx rimraf -f node_modules",
-    "test:performance": "k6 --verbose run tests/performance/script.js"
+    "test:performance": "k6 run --env HOST=${HOST} --env PORT=${PORT} ./tests/performance/script.js"
   },
   "devDependencies": {
     "k6": "^0.0.0",
