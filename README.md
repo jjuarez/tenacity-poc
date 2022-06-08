@@ -19,7 +19,7 @@ pretends to be somekind of [Grafana k6](https://k6.io/) tool testing.
   make client
   ```
 
-## Testing the HTTP server using k6s
+### Testing the HTTP server using k6s
 After has started the HTTP server you should launch the k6 script, easy peacy:
 ```bash
 make test/performance
